@@ -1,0 +1,424 @@
+{
+  "name": "Студия красоты Натальи Павленко",
+  "city": "Новороссийск",
+  "activity": "Ногтевой сервис и стрижки",
+  "timezone": "Europe/Moscow",
+  "branches": [
+    {
+      "id": "yuzhnaya",
+      "address": "Южная улица, 9",
+      "phone": "+7 (918) 666-03-55",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "hoursNote": "По предварительной записи",
+      "links": {
+        "whatsapp": "",
+        "telegram": "",
+        "yandex": "",
+        "gis": "https://2gis.ru/novorossiysk/firm/70000001061953746"
+      }
+    },
+    {
+      "id": "pionerskaya",
+      "address": "Пионерская улица, 25",
+      "phone": "+7 (918) 065-06-58",
+      "hours": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "hoursNote": "По предварительной записи",
+      "links": {
+        "whatsapp": "https://wa.me/79180650658",
+        "telegram": "",
+        "yandex": "https://yandex.ru/maps/org/studiya_krasoty_natalyi_pavlenko/235694714970/",
+        "gis": "https://2gis.ru/novorossiysk/firm/70000001033112530"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "Маникюр и педикюр",
+      "items": [
+        {
+          "id": "female-manicure",
+          "name": "Женский маникюр",
+          "price": 1000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "male-manicure",
+          "name": "Мужской маникюр",
+          "price": 1000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "male-pedicure",
+          "name": "Мужской педикюр",
+          "price": 1800,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "female-pedicure",
+          "name": "Женский педикюр",
+          "price": null,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "classic-manicure",
+          "name": "Аппаратный и классический маникюр",
+          "price": 1000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "polish",
+          "name": "Покрытие лаком",
+          "price": 300,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "extensions",
+          "name": "Наращивание ногтей",
+          "price": 2500,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "french",
+          "name": "Френч",
+          "price": 400,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "gel-polish",
+          "name": "Маникюр + гель-лак",
+          "price": 2000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "gel-strengthening",
+          "name": "Маникюр + укрепление гелем",
+          "price": 2000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "gel-pedicure",
+          "name": "Педикюр с покрытием гель-лаком",
+          "price": 1700,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "smart-coated",
+          "name": "Смарт педикюр с покрытием",
+          "price": 2000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "smart-uncoated",
+          "name": "Смарт педикюр без покрытия",
+          "price": 1200,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "repair",
+          "name": "Ремонт одного ногтя",
+          "price": 500,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Стрижки и укладки",
+      "items": [
+        {
+          "id": "female-haircut",
+          "name": "Стрижка женская",
+          "price": 800,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "wash",
+          "name": "Мытьё (шампунь, бальзам)",
+          "price": 200,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "hair-polishing",
+          "name": "Полировка волос",
+          "price": 1000,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "short-styling",
+          "name": "Укладка (короткая)",
+          "price": 400,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "medium-styling",
+          "name": "Укладка (средняя)",
+          "price": 500,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "long-styling",
+          "name": "Укладка (длинная)",
+          "price": 900,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "male-haircut",
+          "name": "Стрижка мужская",
+          "price": 800,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "simple-haircut",
+          "name": "Простая стрижка",
+          "price": 500,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "child-haircut",
+          "name": "Детская модельная",
+          "price": 600,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        },
+        {
+          "id": "clipper-haircut",
+          "name": "Под насадку простая",
+          "price": 400,
+          "branchIds": [
+            "yuzhnaya",
+            "pionerskaya"
+          ]
+        }
+      ]
+    }
+  ],
+  "masters": [
+    {
+      "id": "",
+      "name": "",
+      "role": "",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "branchIds": [],
+      "serviceIds": []
+    }
+  ],
+  "images": {
+    "hero": {
+      "src": "/images/yandex-studio-interior.jpg",
+      "alt": "Парикмахерское кресло у зеркала с подсветкой"
+    },
+    "gallery": [
+      {
+        "src": "/images/yandex-hair-portrait.jpg",
+        "alt": "Портрет с гладко уложенными волосами пепельного оттенка"
+      },
+      {
+        "src": "/images/yandex-blonde-bob.jpg",
+        "alt": "Каре на светлых волосах"
+      },
+      {
+        "src": "/images/yandex-red-manicure.jpg",
+        "alt": "Красный маникюр с чёрным акцентом"
+      },
+      {
+        "src": "/images/yandex-long-blonde-hair.jpg",
+        "alt": "Длинные светлые волосы, вид сбоку"
+      },
+      {
+        "src": "/images/yandex-green-manicure.jpg",
+        "alt": "Зелёный маникюр со светлыми акцентами"
+      },
+      {
+        "src": "/images/yandex-hair-in-motion.jpg",
+        "alt": "Портрет с распущенными волосами в движении"
+      },
+      {
+        "src": "/images/yandex-blonde-waves.jpg",
+        "alt": "Светлые волны на длинных волосах, вид сзади"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "source": "yandex",
+      "rating": 5,
+      "author": "Наталья Мельникова",
+      "text": "Понравилась бровист Татьяна , форма получилась хорошая и цена очень демократичная . думаю , приду еще ",
+      "date": "2026-02-01",
+      "url": "https://yandex.ru/maps/org/235694714970/reviews?reviews%5BpublicId%5D=0jzkdkcte1xqv42dp4n7chzaqw",
+      "branchId": "pionerskaya",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "source": "2gis",
+      "rating": 5,
+      "author": "Татьяна Скрымина",
+      "text": "Татьяна — прекрасный парикмахер. Татьяна прекрасная!",
+      "date": "2026-10-10",
+      "url": "https://2gis.ru/novorossiysk/firm/70000001061953746/tab/reviews",
+      "branchId": "yuzhnaya",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "source": "2gis",
+      "rating": 5,
+      "author": "Светлана",
+      "text": "Уютный салон. Демократическая цены",
+      "date": "2026-02-06",
+      "url": "https://2gis.ru/novorossiysk/firm/70000001061953746/tab/reviews",
+      "branchId": "yuzhnaya",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "source": "2gis",
+      "rating": 5,
+      "author": "Арина",
+      "text": "всё супер, стригла Татьяна я в восторге",
+      "date": "2025-03-28",
+      "url": "https://2gis.ru/novorossiysk/firm/70000001061953746/tab/reviews",
+      "branchId": "yuzhnaya",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "seo": {
+    "title": "",
+    "description": "",
+    "siteUrl": ""
+  },
+  "privacy": {
+    "title": "Политика конфиденциальности",
+    "text": ""
+  },
+  "links": {
+    "vkontakte": "https://vk.ru/id710198635",
+    "reviews": {
+      "yandex": "https://yandex.ru/maps/org/studiya_krasoty_natalyi_pavlenko/235694714970/reviews/",
+      "2gis": "https://2gis.ru/novorossiysk/firm/70000001061953746/tab/reviews"
+    }
+  },
+  "ratingSummary": [
+    {
+      "source": "yandex",
+      "branchId": "pionerskaya",
+      "rating": 4.9,
+      "ratingCount": 175
+    },
+    {
+      "source": "2gis",
+      "branchId": "yuzhnaya",
+      "rating": 4.9,
+      "ratingCount": 43
+    }
+  ],
+  "demoNotice": "ДЕМО ВАРИАНТ МОЖЕТ БЫТЬ УДАЛЕН ПО ПРОСЬБЕ ВЛАДЕЛЬЦА"
+}
